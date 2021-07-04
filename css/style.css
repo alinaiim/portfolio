@@ -73,7 +73,7 @@ a {
 
 .parallax {
   background-color: #fff;
-  background-image: url(../img/coloradospringswebdesigners.jpg),
+  background-image: url(../img/coloradospringswebdesigners-min.jpg),
     radial-gradient(#444, #111);
   background-attachment: fixed;
   height: 100vh;
@@ -150,6 +150,7 @@ a {
 
 .skills .skill p {
   margin: 0;
+  margin-top: 5%;
   color: #666666;
   font-size: 50px;
 }
@@ -611,16 +612,23 @@ a {
   animation-name: fadeInUp;
 }
 /*# sourceMappingURL=style.css.map */
-
+.div-above-container-img {
+  margin: 0 auto;
+}
 .container-img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
 }
 
 .container-img img {
-  border-radius: 50%;
   width: 100%;
+}
+
+@media only screen and (max-width: 450px) {
+  .container-img img {
+    margin-left: -15%;
+  }
 }
 
 .download-cv-btn {
