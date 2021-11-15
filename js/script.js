@@ -29,7 +29,7 @@ var typed = new Typed("#typed", {
 
 const work = new Siema({
     selector: '.siema',
-    duration: 200,
+    duration: 500,
     easing: 'ease-out',
     perPage: 1,
     startIndex: 0,
@@ -49,7 +49,7 @@ const skills = new Siema({
         992: 3,
     },
     selector: '.skill',
-    duration: 200,
+    duration: 500,
     easing: 'ease-out',
     startIndex: 0,
     draggable: true,
